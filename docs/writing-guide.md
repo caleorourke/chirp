@@ -1,14 +1,14 @@
 ---
 layout: docs
-title: Redcarpet
-tagline: Get out of writing fancy code with this humanistic, editor-friendly language.
+title: Writing Guide
+tagline: Get out of using fancy code and clunky editors with Markdown.
 order: 4
 baseurl: "../../"
 ---
 
-# Introducing Redcarpet
+# Redcarpet-flavored Markdown
 
-[Markdown](http://en.m.wikipedia.org/wiki/Markdown) provides a simple, humanistic way to write web content without hardcore coding. It's a language designed to make things easier to voice or read. You still write just like you always have, only now you drop in a few symbols that will magically transform your work into HTML. 
+Rasp uses [Markdown](http://en.m.wikipedia.org/wiki/Markdown) to provide a simple, humanistic way to write web content without coding. It's a simple language designed to make things easier to voice or read. You still write just like you always have, only now you drop in a few symbols that will magically transform your work into HTML. 
 
 However, it is not HTML, nor does it create HTML pages. Something else is responsible for transforming it into HTML. That something is [Redcarpet](https://github.com/vmg/redcarpet).
 
