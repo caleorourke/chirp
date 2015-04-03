@@ -1,0 +1,26 @@
+language: ruby
+
+rvm:
+  - 2.0.0
+  - 2.1.5
+  - 2.2.1
+
+before_install:
+  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+install:
+  - npm install -g grunt-cli
+  - npm install
+  - grunt install
+
+script:
+  - grunt build
+
+branches:
+  only:
+    - gh-pages
+
+notifications:
+  email: false
+
+sudo: false
