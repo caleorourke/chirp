@@ -1,14 +1,16 @@
 ---
 layout: docs
 title: Redcarpet
-tagline: Get out of writing fancy code with this humanistic, editor-friendly language
+tagline: Get out of writing fancy code with this humanistic, editor-friendly language.
 order: 4
 baseurl: "../../"
 ---
 
 # Introducing Redcarpet
 
-[Markdown](http://en.m.wikipedia.org/wiki/Markdown) provides a simple, humanistic way to write web content without hardcore coding. It's a language designed to make things easier to voice or read. You still write just like you always have, only now you drop in a few symbols that will magically transform your work into HTML. However, it is not HTML, nor does it create HTML pages. Something else is responsible for transforming it into HTML. That something is [Redcarpet](https://github.com/vmg/redcarpet).
+[Markdown](http://en.m.wikipedia.org/wiki/Markdown) provides a simple, humanistic way to write web content without hardcore coding. It's a language designed to make things easier to voice or read. You still write just like you always have, only now you drop in a few symbols that will magically transform your work into HTML. 
+
+However, it is not HTML, nor does it create HTML pages. Something else is responsible for transforming it into HTML. That something is [Redcarpet](https://github.com/vmg/redcarpet).
 
 ---
 
@@ -16,7 +18,7 @@ baseurl: "../../"
 
 Now that you're acquainted with the inner-workings, let's get down to the stuff you came here for---starting with paragraphs.
 
-Similar to Pages, Google Docs, and Word, you create paragraphs by writing one or more lines of content and separating them with blank lines. This is the simplest form of writing in Markdown because it doesn't require any symbols.
+Similar to Docs, Word, and plain text, you create paragraphs by writing one or more lines of content and separating them with blank lines. This is the simplest form of writing in Markdown because it doesn't require any symbols.
 
 <pre>
 Lorem ipsum is simply dummy text of the printing and typesetting industry.
@@ -38,7 +40,7 @@ Contrary to popular belief, Lorem ipsum is not random text.
 
 # Text Effects
 
-With Markdown, you can add the following text effects to your content.
+With Redcarpet, you can add the following text effects to your content.
 
 * [Bold](#bold)
 * [Italic](#italic)
@@ -50,7 +52,7 @@ With Markdown, you can add the following text effects to your content.
 
 ### Bold
 
-Place two asterisks `**` or two underscores `__` at both ends of your content.
+Place two asterisks `**` or two underscores `__` at both ends.
 
 <pre>
 Lorem ipsum is **simply dummy text** of the printing and typesetting industry. It has been the industry's standard dummy text __ever since the 1500s__.
@@ -62,7 +64,7 @@ Lorem ipsum is **simply dummy text** of the printing and typesetting industry. I
 
 ### Italic
 
-Place one asterisk `*` at both ends of your content.
+Place one asterisk `*` at both ends.
 
 <pre>
 Lorem ipsum is simply dummy text of the *printing* and *typesetting* industry.
@@ -86,7 +88,7 @@ __Lorem ipsum is *simply dummy text*__ of the printing and typesetting industry.
 
 ### Underline
 
-Place one underscore `_` at both ends of your content.
+Place one underscore `_` at both ends.
 
 <pre>
 Lorem ipsum is simply dummy text of the _printing and typesetting industry_.
@@ -98,7 +100,7 @@ Lorem ipsum is simply dummy text of the _printing and typesetting industry_.
 
 ### Delete
 
-Place two tildes `~~` at both ends of your content.
+Place two tildes `~~` at both ends.
 
 <pre>
 Lorem ipsum is ~~simply dummy~~ text of the ~~printing and~~ typesetting industry.
@@ -136,7 +138,7 @@ Place two equal signs `==` at both ends.
 
 # Punctuation
 
-You can create the following punctuations with Markdown.
+You can create the following punctuations with Redcarpet.
 
 * [Em Dash](#em-dash)
 * [En Dash](#en-dash)
@@ -202,13 +204,15 @@ ___
 
 # Blockquotes
 
-Make a blockquote by putting a greater-than angle bracket `>` before the content. You can also mix punctuation and text effects in with your quotes.
+Make a blockquote by putting a greater-than angle bracket `>` before the content.
 
 <pre>
 > Blockquotes are very handy to emulate content for quotes.
 </pre>
 
 > Blockquotes are very handy to emulate content for quotes.
+
+You can also mix punctuation and text effects in with your quotes.
 
 <pre>
 > When you are courting a nice girl, an hour seems like a second. When you sit on a red-hot cinder, a second seems like an hour. That's relativity. --- *Albert Einstein*
@@ -220,7 +224,7 @@ Make a blockquote by putting a greater-than angle bracket `>` before the content
 
 # Headings
 
-Tell Markdown what you want to be a heading and how big you want it by using hash tags `#`.
+Tell Redcarpet what you want to be a heading and how big you want it by using hash tags `#`.
 
 <pre>
 # h1. Heading 1
@@ -305,7 +309,7 @@ This example shows how to combine both lists. Notice the indents before the sub 
 
 # Links
 
-Creating a link is very simple with Markdown. All you have to do is put the word(s) you want to highlight in brackets `[]` and the link in parenthesis `()` next to it.
+Creating a link is very simple with Redcarpet. All you do is put the word(s) you want to highlight in brackets `[]` and the link in parenthesis `()` next to it.
 
 <pre>
 [Visit our website](http://www.softlayer.com)
@@ -325,7 +329,7 @@ Hover over [this link](http://www.softlayer.com "SoftLayer, an IBM Company") to 
 
 ### Autolinks
 
-Emulate a direct link without any words by putting angle brackets `<>` at both ends of the link. Wrap text around it to make a quick call-to-action or redirect users to another site.
+Emulate a direct link without any words by putting angle brackets `<>` at both ends.
 
 `<http://www.softlayer.com>`<br>
 `<sales@softlayer.com>`
@@ -334,7 +338,7 @@ Emulate a direct link without any words by putting angle brackets `<>` at both e
 
 # Images
 
-Links and images use similar formats with only a few minor exceptions.
+Links and images use similar formats with a few exceptions.
 
 * Images have an exclamation mark `!` before the brackets
 * A description is optional, although the brackets `[]` are still required
@@ -363,7 +367,7 @@ Links and images use similar formats with only a few minor exceptions.
 
 # Code
 
-This summary shows how to dress your code snippets.
+This summary shows how to dress up your code.
 
 * [Inline Code](#inline-code)
 * [Code Blocks](#code-blocks)
@@ -379,7 +383,7 @@ Use `back-ticks` to show inline code.
 
 ### Code Blocks
 
-Fence bigger chucks of code by putting three back-ticks <code>```</code> or three tildes <code>~~~</code> at the top and bottom.
+Fence larger chucks of code by putting three back-ticks <code>```</code> or three tildes <code>~~~</code> at the top and bottom.
 
 <pre>
 ```
@@ -415,7 +419,7 @@ if ($this.parent('li').hasClass('active')) return
 
 ### Code Highlights
 
-To make code blocks look more festive, we include highlights for dozens of programming languages, template languages, and other markup. Just add the language name after the top-set of Tildes or back-ticks if you want it highlighted.
+To make code blocks look more festive, Rasp include highlights for dozens of programming languages, template languages, and other markup. Just add the language name after the top set of tildes or back-ticks if you want it highlighted.
 
 For a complete list of supported languages, check out the [website for Highlight.js](http://highlightjs.org).
 
@@ -517,7 +521,7 @@ Making a table is fairly straightforward.
 * Dashes `-` separate the header from the data
 * Colons `:` align the columns (and are optional)
 
-Our first example shows all the symbols lined up neatly. Making tables look this neat is purely for readability. Symbols do not have to line up. In fact, the outer pipes `|` are not even required.
+Our first example shows all the symbols lined up neatly. Making tables look this neat is purely for readability. Symbols do not have to line up. In fact, the outer pipes `|` are not even required with Redcarpet.
 
 ### Aligned
 
@@ -558,7 +562,7 @@ Titan | Europa | Enceladus
 
 # Videos
 
-You cannot embed videos with Markdown, but you can add an image that links back to the video. And since we're using an image as a placeholder for the video, the syntax is almost identical to the syntax for images.
+You cannot embed videos with Redcarpet, but you can add an image that links back to the video. And since this uses an image as a placeholder for the video, the syntax is almost identical to the syntax for images.
 
 <pre>
 [![Title](http://img.youtube.com/vi/VideoID/0.jpg)](http://www.youtube.com/watch?v=VideoID)
