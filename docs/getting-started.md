@@ -9,42 +9,38 @@ baseurl: "../../"
 # Introduction to {{site.github.title}}
 {{site.github.title}} is a discount Bootstrap for crafting technical docs on GitHub. It provides the facilities to write content exclusively in [Markdown](http://en.m.wikipedia.org/wiki/Markdown) and spin-up [Jekyll](http://jekyllrb.com)-powered static websites.
 
-A few benefits of using {{site.github.title}} include:
-
-* Fast load times
-* Automated repetitive tasks
-* Responsive, mobile-ready views
-* Table of Contents (TOC) built on-the-fly
-
 ---
 
 # Features
 {{site.github.title}} is chock-full of nifty features and doodads.
 
 * Fast load times
-* Responsive and mobile-friendly
+* Free web hosting using [GitHub Pages](http://pages.github.com)
+* Responsive, mobile-ready views
+* Markdown rendering via [Redcarpet](http://github.com/vmg/redcarpet)
 * Centralized, database-less (flat-file) [configuration](http://github.com/caleorourke/rasp/blob/gh-pages/_config.yml)
 * Pretty URLs
 * [Sitemap](https://help.github.com/articles/sitemaps-for-github-pages) and [Metadata](http://help.github.com/articles/repository-metadata-on-github-pages) for GitHub Pages
 * [Table of Contents](http://github.com/caleorourke/rasp/blob/gh-pages/js/contents.js) plugin
 * [Smooth Scrolling](http://github.com/caleorourke/rasp/blob/gh-pages/js/easing.js) plugin
-* [GitHub API](http://github.com/caleorourke/rasp/blob/gh-pages/_includes/handlers/github.html) plugin for fetching release pegs and repo stats
+* [GitHub API](http://github.com/caleorourke/rasp/blob/gh-pages/_includes/handlers/github.html) script for fetching release pegs and repo stats
+* Automated repetitive tasks
+* Shopify's [Liquid](http://liquidmarkup.org) template language
+* Ready-made, reusable doc templates to help get you started quickly
 
-### Core Environment
+Aside from its benefits, Rasp is simply a lightweight framework baked with:
+
 * CSS3/HTML5
 * JavaScript/jQuery
 * Node.js
 * Ruby
 * [Bootstrap](http://twitter.github.io/bootstrap) grid and scripts
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome) iconic font
-* [GitHub Pages](http://pages.github.com) for free web hosting
 * [Grunt](http://gruntjs.com) task runner
 * [Highlight](http://highlightjs.org/) for code highlighting
 * [HTML5 Shiv](http://code.google.com/p/html5shiv) IE-enabling script
 * [LESS](http://lesscss.org) dynamic stylesheets for variables, mixins, styling, and more
-* [Liquid](http://liquidmarkup.org) template language
 * [Normalize](http://necolas.github.io/normalize.css) for CSS normalization and resets (customized)
-* [Redcarpet](http://github.com/vmg/redcarpet) for Markdown rendering
 
 ---
 
