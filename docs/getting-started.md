@@ -7,3 +7,108 @@ baseurl: "../../"
 ---
 
 # Introduction to {{site.github.title}}
+{{site.github.title}} is a discount Bootstrap for crafting technical docs on GitHub. It provides the facilities to write content exclusively in [Markdown](http://en.m.wikipedia.org/wiki/Markdown) and spin-up [Jekyll](http://jekyllrb.com)-powered static websites.
+
+A few benefits of using {{site.github.title}} include:
+
+* Fast load times
+* Automated repetitive tasks
+* Responsive, mobile-ready views
+* Table of Contents (TOC) built on-the-fly
+
+---
+
+# Features
+{{site.github.title}} is chock-full of nifty features and doodads.
+
+* Fast load times
+* Responsive and mobile-friendly
+* Centralized, database-less (flat-file) [configuration](http://github.com/caleorourke/rasp/blob/gh-pages/_config.yml)
+* Pretty URLs
+* [Sitemap](https://help.github.com/articles/sitemaps-for-github-pages) and [Metadata](http://help.github.com/articles/repository-metadata-on-github-pages) for GitHub Pages
+* [Table of Contents](http://github.com/caleorourke/rasp/blob/gh-pages/js/contents.js) plugin
+* [Smooth Scrolling](http://github.com/caleorourke/rasp/blob/gh-pages/js/easing.js) plugin
+* [GitHub API](http://github.com/caleorourke/rasp/blob/gh-pages/_includes/handlers/github.html) plugin for fetching release pegs and repo stats
+
+### Core Environment
+* CSS3/HTML5
+* JavaScript/jQuery
+* Node.js
+* Ruby
+* [Bootstrap](http://twitter.github.io/bootstrap) grid and scripts
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome) iconic font
+* [GitHub Pages](http://pages.github.com) for free web hosting
+* [Grunt](http://gruntjs.com) task runner
+* [Highlight](http://highlightjs.org/) for code highlighting
+* [HTML5 Shiv](http://code.google.com/p/html5shiv) IE-enabling script
+* [LESS](http://lesscss.org) dynamic stylesheets for variables, mixins, styling, and more
+* [Liquid](http://liquidmarkup.org) template language
+* [Normalize](http://necolas.github.io/normalize.css) for CSS normalization and resets (customized)
+* [Redcarpet](http://github.com/vmg/redcarpet) for Markdown rendering
+
+---
+
+# Compatibility
+Starting from greatest to worst, {{site.github.title}} works the best with the following browsers and platforms.
+
+| Platform    | Chrome | Firefox | Internet Explorer | Opera | Safari |
+| ----------- |:------:|:-------:|:-----------------:|:-----:|:------:|
+| Android     | Yes    | No      | -                 | No    | -      |
+| iOS         | Yes    | -       | -                 | No    | Yes    |
+| Mac OS X    | Yes    | Yes     | -                 | Yes   | Yes    |
+| Windows     | Yes    | Yes     | Yes               | Yes   | No     |
+
+As for legacy browsers, **support is limited** to whatever the browser can handle.
+
+> Apple no longer provides updates for Windows-native Safari browsers. Due to major lapses in critical updates, do not use Safari on Windows.
+
+---
+
+# Prerequisites
+{{site.github.title}} requires the minimum versions of **Node.js** and **Ruby** below. Click the links to get download and install instructions.
+
+* [Node.js 0.10.30 or greater](http://nodejs.org/download)
+* [Ruby 2.0 or greater](http://www.ruby-lang.org/en/installation)
+
+> If you have Ruby, but aren’t sure which version, run `ruby -v`. For Node.js, run `node --version`.
+
+[Travis CI](http://travis-ci.org) runs routine tests against the following Ruby versions:
+
+* Ruby 2.0.0 (p643)
+* Ruby 2.1.5
+* Ruby 2.2.1
+
+### Setup Jekyll on Windows
+
+If you're using Windows, read Yi Zeng's [Setup Jekyll on Windows](http://yizeng.me/2013/05/10/setup-jekyll-on-windows/) article before getting into the thick of things. It'll save you a ton of time and agony.
+
+---
+
+# Install {{site.github.title}}
+
+1. Verify that Node.js and Ruby are installed
+
+    ~~~
+    # each command returns a version number
+    $ node --version
+    $ ruby -v
+    ~~~
+
+2. Clone hum from GitHub and go into its directory (~5 sec.)
+
+    ~~~
+    $ git clone -o master https://github.com/caleorourke/rasp.git
+    $ cd hum
+    ~~~
+
+3. Install Grunt and the dev dependencies for Node.js (~10 sec.)
+
+    ~~~
+    $ [sudo] npm install
+    ~~~
+
+4. Install Jekyll and other runtime dependencies (~20 sec.)
+
+    ~~~
+    $ [sudo] grunt install
+    ~~~
