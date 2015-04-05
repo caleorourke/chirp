@@ -7,11 +7,13 @@ baseurl: "../../"
 ---
 
 # Introduction to {{site.github.title}}
+
 {{site.github.title}} is a discount Bootstrap for crafting technical docs on GitHub. It provides the facilities to write content exclusively in [Markdown](http://en.m.wikipedia.org/wiki/Markdown) and spin-up [Jekyll](http://jekyllrb.com)-powered static websites.
 
 ---
 
 # Features
+
 {{site.github.title}} is chock-full of nifty features and doodads.
 
 * Fast load times
@@ -27,6 +29,10 @@ baseurl: "../../"
 * Automated repetitive tasks
 * Shopify's [Liquid](http://liquidmarkup.org) template language
 * Ready-made, reusable doc templates to help get you started quickly
+
+---
+
+# Core Components
 
 Aside from its benefits, Rasp is simply a lightweight framework baked with:
 
@@ -45,6 +51,7 @@ Aside from its benefits, Rasp is simply a lightweight framework baked with:
 ---
 
 # Compatibility
+
 Starting from greatest to worst, {{site.github.title}} works the best with the following browsers and platforms.
 
 | Platform    | Chrome | Firefox | Internet Explorer | Opera | Safari |
@@ -61,6 +68,7 @@ As for legacy browsers, **support is limited** to whatever the browser can handl
 ---
 
 # Prerequisites
+
 {{site.github.title}} requires the minimum versions of **Node.js** and **Ruby** below. Click the links to get download and install instructions.
 
 * [Node.js 0.10.30 or greater](http://nodejs.org/download)
