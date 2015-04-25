@@ -52,7 +52,9 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6{
   margin-bottom: 5px;
   line-height: @line-height-xsmall;
 }
@@ -63,14 +65,14 @@ h1[id] {
 }
 
 h1 {
-  font-size: (@font-size-normal * 1.9); /* ~30px */
+  font-size: (@font-size-normal * 1.9531); /* ~31px */
   font-weight: @font-weight-light;
   letter-spacing: @letter-spacing-xsmall;
 }
 
 h2 {
   margin-top: 32px;
-  font-size: (@font-size-normal * 1.555); /* ~25px */
+  font-size: (@font-size-normal * 1.5625); /* ~25px */
   font-weight: @font-weight-normal;
   letter-spacing: @letter-spacing-medium;
 }
@@ -86,4 +88,14 @@ h4 {
   font-size: (@font-size-normal * 1.15); /* ~18px */
   font-weight: @font-weight-bold;
   letter-spacing: @letter-spacing-small;
+}
+
+h5 {
+  font-size: @font-size-normal; /* 16px */
+  font-weight: @font-weight-bold;
+  letter-spacing: @letter-spacing-small;
+}
+
+h6 {
+  font-size: (@font-size-normal * .8); /* ~13px */
 }
