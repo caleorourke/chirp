@@ -8,113 +8,94 @@
  *
  */
 
+/* IBM Gray */
 .hljs-comment {
   color: #959f9f;
 }
 
-.hljs-javadoc {
-  color: #ad1625;
-}
-
-.hljs-keyword,
-.method,
-.hljs-list .hljs-keyword,
-.nginx .hljs-title,
-.hljs-tag .hljs-title,
-.setting .hljs-value,
-.hljs-winutils,
-.tex .hljs-command,
-.http .hljs-title,
-.hljs-request,
-.hljs-status {
-  color: #152935;
-}
-
-.hljs-string,
-.hljs-tag .hljs-value,
-.hljs-cdata,
-.hljs-filter .hljs-argument,
-.hljs-attr_selector,
-.apache .hljs-cbracket,
-.hljs-date,
+/* IBM Red */
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
 .hljs-regexp,
-.coffeescript .hljs-attribute {
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: @red;
+}
+
+/* IBM Orange */
+.hljs-number,
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: @orange;
+}
+
+/* IBM Yellow */
+.ruby .hljs-class .hljs-title,
+.css .hljs-rule .hljs-attribute {
+  color: @yellow;
+}
+
+/* IBM Green */
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.hljs-name,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
   color: @green;
 }
 
-.hljs-sub .hljs-identifier,
-.hljs-pi,
-.hljs-tag,
-.hljs-tag .hljs-keyword,
-.hljs-decorator,
-.ini .hljs-title,
-.hljs-shebang,
-.hljs-prompt,
-.hljs-hexcolor,
-.hljs-rules .hljs-value,
-.hljs-literal,
-.hljs-symbol,
-.ruby .hljs-symbol .hljs-string,
-.hljs-number,
-.css .hljs-function,
-.clojure .hljs-attribute {
-  color: @magenta;
+/* Aux Aqua */
+.hljs-title,
+.css .hljs-hexcolor {
+  color: #3e999f;
 }
 
-.hljs-class .hljs-title,
-.smalltalk .hljs-class,
-.hljs-javadoctag,
-.hljs-yardoctag,
-.hljs-phpdoc,
-.hljs-dartdoc,
-.hljs-type,
-.hljs-typename,
-.hljs-tag .hljs-attribute,
-.hljs-doctype,
-.hljs-class .hljs-id,
-.hljs-built_in,
-.setting,
-.hljs-params,
-.hljs-variable {
+/* IBM Blue */
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: @blue;
+}
+
+/* IBM Purple */
+.hljs-keyword,
+.javascript .hljs-function {
   color: @purple;
 }
 
-.css .hljs-tag,
-.hljs-rules .hljs-property,
-.hljs-pseudo,
-.hljs-subst {
-  color: @gray20;
+.hljs {
+/* display: block;
+  overflow-x: auto;
+  background: white; */
+  color: #4d4d4c;
+/* padding: 0.5em;
+  -webkit-text-size-adjust: none; */
 }
 
-.hljs-value .hljs-important {
-  color: #ff7832;
-}
-
-.hljs-rules .hljs-keyword {
-  color: #b8aeae;
-}
-
-.hljs-annotation,
-.apache .hljs-sqbracket,
-.nginx .hljs-built_in {
-  color: #9e9494;
-}
-
-.hljs-preprocessor,
-.hljs-preprocessor *,
-.hljs-pragma {
-  color: @gray30;
-}
-
-.diff .hljs-header,
-.hljs-chunk {
-  color: #7d7373;
-}
-
-.hljs-addition {
-  background-color: #a7fae6;
-}
-
-.hljs-deletion {
-  background-color: #ff2dd3;
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
 }
