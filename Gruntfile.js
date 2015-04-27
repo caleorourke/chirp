@@ -31,9 +31,9 @@ module.exports = function(grunt) {
     },
 
     clean: {
-      assets: ['public/css/main.min.css',
-               'public/js/main.min.js',
-               'public/js/plugins.min.js']
+      assets: ['public/css/app.min.css',
+               'public/js/app.min.js',
+               'public/js/lib.min.js']
     },
 
     concat: {
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
               'js/vendors/transition.js',
               'js/vendors/collapse.js',
               'js/vendors/highlight.js'],
-        dest: 'public/js/plugins.min.js'
+        dest: 'public/js/lib.min.js'
       },
 
       main: {
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
               'js/metabar.js',
               'js/scrolltop.js',
               'js/easing.js'],
-        dest: 'public/js/main.min.js'
+        dest: 'public/js/app.min.js'
       }
     },
 
@@ -63,7 +63,7 @@ module.exports = function(grunt) {
           report: 'min'
         },
         src: '<%= concat.vendors.dest %>',
-        dest: 'public/js/plugins.min.js'
+        dest: 'public/js/lib.min.js'
       },
 
       main: {
@@ -72,7 +72,7 @@ module.exports = function(grunt) {
           report: 'min'
         },
         src: '<%= concat.main.dest %>',
-        dest: 'public/js/main.min.js'
+        dest: 'public/js/app.min.js'
       }
     },
 
@@ -83,8 +83,8 @@ module.exports = function(grunt) {
           compress: false,
           banner: '<%= banner %>'
         },
-        src: ['less/@rasp.less'],
-        dest: 'public/css/main.min.css'
+        src: ['less/@app.less'],
+        dest: 'public/css/app.min.css'
       },
       minify: {
         options: {
