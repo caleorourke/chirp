@@ -8,33 +8,28 @@
  *
  */
 
-.iconset {
+.icon-wrapper {
   padding: 70px 0 0;
 }
 
-.icon {
+.icon-placeholder {
   padding-top: 0;
 
   a {
-    color: @gray80;
+    color: @gray20;
     text-decoration: none;
   }
 
   p {
     padding: 0 20px;
     font-weight: @font-weight-light;
-    color: @white;
   }
 }
 
 .icon-large {
   .transition-duration(.4s);
   .transition-property(color);
-  font-size: (@font-size-normal * 5) !important; /* 80px */
-
-  &.icon-white {
-    .icon-variant(@white);
-  }
+  font-size: (@font-size-normal * 6.5) !important; /* 104px */
 
   &.icon-animated {
     .transition-property(-webkit-transform);
