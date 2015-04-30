@@ -31,18 +31,17 @@ module.exports = function(grunt) {
     },
 
     clean: {
-      assets: ['public/css/app.min.css',
-               'public/js/app.min.js',
-               'public/js/lib.min.js']
+      assets: ['public/css/app.css',
+               'public/js/app.js',
+               'public/js/library.js']
     },
 
     concat: {
       vendors: {
-        src: ['js/vendors/jquery.js',
-              'js/vendors/transition.js',
+        src: ['js/vendors/transition.js',
               'js/vendors/collapse.js',
               'js/vendors/highlight.js'],
-        dest: 'public/js/lib.min.js'
+        dest: 'public/js/library.js'
       },
 
       main: {
@@ -53,26 +52,18 @@ module.exports = function(grunt) {
               'js/metabar.js',
               'js/scrolltop.js',
               'js/easing.js'],
-        dest: 'public/js/app.min.js'
+        dest: 'public/js/app.js'
       }
     },
 
     uglify: {
-      vendors: {
-        options: {
-          report: 'min'
-        },
-        src: '<%= concat.vendors.dest %>',
-        dest: 'public/js/lib.min.js'
-      },
-
       main: {
         options: {
           banner: '<%= banner %>',
           report: 'min'
         },
         src: '<%= concat.main.dest %>',
-        dest: 'public/js/app.min.js'
+        dest: 'public/js/app.js'
       }
     },
 
@@ -84,7 +75,7 @@ module.exports = function(grunt) {
           banner: '<%= banner %>'
         },
         src: ['less/@app.less'],
-        dest: 'public/css/app.min.css'
+        dest: 'public/css/app.css'
       },
       minify: {
         options: {
