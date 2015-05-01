@@ -1,9 +1,9 @@
 /*
- * Copyright © Rasp by SoftLayer, an IBM Company
+ * Copyright © SoftLayer, an IBM Company
  *
  * gruntfile.js
- * Rasp's Grunt file. Grunt provides configuration for tasks and npm extensions. It reads JSON data
- * from "package.json" and YAML data from "_config.yml". Visit http://gruntjs.com to learn more.
+ * Grunt provides configuration for tasks and npm extensions. It reads JSON data from "package.json"
+ * and YAML data from "_config.yml". Visit http://gruntjs.com to learn more.
  *
  */
 
@@ -50,7 +50,7 @@ module.exports = function(grunt) {
         },
         src: ['js/contents.js',
               'js/metabar.js',
-              'js/scrolltop.js',
+              'js/scrollup.js',
               'js/easing.js'],
         dest: 'public/js/app.js'
       }

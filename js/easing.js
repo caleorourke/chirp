@@ -1,5 +1,5 @@
 /*
- * Copyright © Rasp by SoftLayer, an IBM Company
+ * Copyright © SoftLayer, an IBM Company
  *
  * easing.js
  * Rasp's easing.js script smoothly animates the on-page scrolling from links in the body

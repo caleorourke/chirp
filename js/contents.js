@@ -1,5 +1,5 @@
 /*
- * Copyright © Rasp by SoftLayer, an IBM Company
+ * Copyright © SoftLayer, an IBM Company
  *
  * contents.js
  * Rasp's contents.js script generates an on-page table of contents for every 'h1' heading

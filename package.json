@@ -1,9 +1,9 @@
 {
-  "name": "Rasp",
+  "name": "Hum",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caleorourke/rasp.git"
+    "url": "https://github.com/caleorourke/hum.git"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

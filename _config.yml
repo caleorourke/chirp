@@ -1,10 +1,10 @@
 #
-# * Copyright © Rasp by SoftLayer, an IBM Company
+# * Copyright © SoftLayer, an IBM Company
 # *
 # * _config.yml
-# * Rasp's localized configuration file. Config values should always be defined in _config.yml. Do
-# * not edit existing config values. Use spaces only, no tabs. Wrap quotes around words or phrases
-# * that contain commas or apostrophes.
+# * Localized configuration file. Config values should always be defined in _config.yml. Do not edit
+# * existing config values. Use spaces only, no tabs. Wrap quotes around words or phrases that contain
+# * commas or apostrophes.
 #
 
 # ==============================
@@ -12,15 +12,15 @@
 # ==============================
 
 github:
-  title:        Rasp
+  title:        Hum
   tagline:      A discount Bootstrap for writing technical docs in Markdown.
   owner:        "SoftLayer, an IBM Company"
   license:      MIT
   user:
     name:       caleorourke
-    repo:       rasp
+    repo:       hum
 
-keywords:       "css,framework,github,github pages,html5,IBM,jekyll,liquid,markdown,rasp,redcarpet,softlayer"
+keywords:       "css,framework,github,github pages,html5,hum,IBM,javascript,jekyll,js,liquid,markdown,redcarpet,softlayer"
 
 # ==============================
 # Markdown
@@ -43,7 +43,7 @@ redcarpet:
 # Server
 # ==============================
 
-baseurl:        /rasp
+baseurl:        /hum
 permalink:      pretty
 exclude:        [".csscomb.json",
                  ".gitignore",

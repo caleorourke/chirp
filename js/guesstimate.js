@@ -1,5 +1,5 @@
 /*
- * Copyright © Rasp by SoftLayer, an IBM Company
+ * Copyright © SoftLayer, an IBM Company
  *
  * guesstimate.js
  * Rasp's guesstimate.js script estimates how long it'll take to read a single page
