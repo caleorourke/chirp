@@ -16,7 +16,7 @@ A few benefits of using Urban include:
 
 ## Documentation
 
-Browse the wiki to get more intimate with the innards of Urban.
+[Browse the wiki](http://github.com/caleorourke/urban/wiki) to get more intimate with the innards of Urban.
 
 ## License
 
