@@ -1,9 +1,9 @@
 {
-  "name": "Hum",
+  "name": "Urban",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caleorourke/hum.git"
+    "url": "https://github.com/caleorourke/urban.git"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
