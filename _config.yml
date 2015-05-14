@@ -12,15 +12,15 @@
 # ==============================
 
 github:
-  title:        Hum
+  title:        Urban
   tagline:      A discount Bootstrap for writing technical docs in Markdown.
   owner:        "SoftLayer, an IBM Company"
   license:      MIT
   user:
     name:       caleorourke
-    repo:       hum
+    repo:       urban
 
-keywords:       "css,framework,github,github pages,html5,hum,IBM,javascript,jekyll,js,liquid,markdown,redcarpet,softlayer"
+keywords:       "css,framework,github,github pages,html5,IBM,javascript,jekyll,js,liquid,markdown,redcarpet,softlayer,urban"
 
 # ==============================
 # Markdown
@@ -43,7 +43,7 @@ redcarpet:
 # Server
 # ==============================
 
-baseurl:        /hum
+baseurl:        /urban
 permalink:      pretty
 exclude:        [".csscomb.json",
                  ".gitignore",
