@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Getting Started
-tagline: The ultimate how-to source for downloading and installing Rasp.
+tagline: The ultimate how-to source for downloading and installing Urban.
 order: 1
 baseurl: "../../"
 ---
@@ -20,12 +20,12 @@ baseurl: "../../"
 * Free web hosting using [GitHub Pages](http://pages.github.com)
 * Responsive, mobile-ready views
 * Markdown rendering via [Redcarpet](http://github.com/vmg/redcarpet)
-* Centralized, database-less (flat-file) [configuration](http://github.com/caleorourke/rasp/blob/gh-pages/_config.yml)
+* Centralized, database-less (flat-file) [configuration](http://github.com/caleorourke/urban/blob/gh-pages/_config.yml)
 * Pretty URLs
 * [Sitemap](https://help.github.com/articles/sitemaps-for-github-pages) and [Metadata](http://help.github.com/articles/repository-metadata-on-github-pages) for GitHub Pages
-* [Table of Contents](http://github.com/caleorourke/rasp/blob/gh-pages/js/contents.js) plugin
-* [Smooth Scrolling](http://github.com/caleorourke/rasp/blob/gh-pages/js/easing.js) plugin
-* [GitHub API](http://github.com/caleorourke/rasp/blob/gh-pages/_includes/handlers/github.html) script for fetching release pegs and repo stats
+* [Table of Contents](http://github.com/caleorourke/urban/blob/gh-pages/js/contents.js) plugin
+* [Smooth Scrolling](http://github.com/caleorourke/urban/blob/gh-pages/js/easing.js) plugin
+* [GitHub API](http://github.com/caleorourke/urban/blob/gh-pages/_includes/handlers/github.html) script for fetching release pegs and repo stats
 * Automated repetitive tasks
 * Shopify's [Liquid](http://liquidmarkup.org) template language
 * Ready-made, reusable doc templates to help get you started quickly
@@ -34,7 +34,7 @@ baseurl: "../../"
 
 # Core Components
 
-Aside from its benefits, Rasp is simply a lightweight framework baked with:
+Aside from its benefits, {{site.github.title}} is simply a lightweight framework baked with:
 
 * CSS3/HTML5
 * JavaScript/jQuery
@@ -90,29 +90,21 @@ If you're using Windows, read Yi Zeng's [Setup Jekyll on Windows](http://yizeng.
 
 # Install {{site.github.title}}
 
-1. Verify that Node.js and Ruby are installed
+Verify that Node.js and Ruby are installed.
 
-    ~~~
     # each command returns a version number
     $ node --version
     $ ruby -v
-    ~~~
 
-2. Clone hum from GitHub and go into its directory (~5 sec.)
+Clone {{site.github.title}} from GitHub and go into its directory (5s).
 
-    ~~~
-    $ git clone -o master https://github.com/caleorourke/rasp.git
-    $ cd hum
-    ~~~
+    $ git clone -o master https://github.com/caleorourke/{{site.github.title | downcase}}.git
+    $ cd {{site.github.title | downcase}}
 
-3. Install Grunt and the dev dependencies for Node.js (~10 sec.)
+Install Grunt and dev dependencies for Node.js (10s).
 
-    ~~~
     $ [sudo] npm install
-    ~~~
 
-4. Install Jekyll and other runtime dependencies (~20 sec.)
+Install Jekyll and other runtime dependencies (40s).
 
-    ~~~
     $ [sudo] grunt install
-    ~~~

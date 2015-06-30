@@ -2,13 +2,13 @@
 layout: docs
 title: Writing Guide
 tagline: Get out of using fancy code and clunky editors with Redcarpet-flavored Markdown.
-order: 4
+order: 3
 baseurl: "../../"
 ---
 
 # Markdown
 
-Rasp uses [Markdown](http://en.m.wikipedia.org/wiki/Markdown) to provide a simple, humanistic way to write web content without coding. It's a simple language designed to make things easier to voice or read. You still write just like you always have, only now you drop in a few symbols that will magically transform your work into HTML.
+{{site.github.title}} uses [Markdown](http://en.m.wikipedia.org/wiki/Markdown) to provide a simple, humanistic way to write web content without coding. It's a simple language designed to make things easier to voice or read. You still write just like you always have, only now you drop in a few symbols that will magically transform your work into HTML.
 
 ### Redcarpet
 
@@ -430,7 +430,7 @@ if ($this.parent('li').hasClass('active')) return
 
 ### Code Highlights
 
-To make code blocks look more festive, Rasp include highlights for dozens of programming languages, template languages, and other markup. Just add the language name after the top set of tildes or back-ticks if you want it highlighted.
+To make code blocks look more festive, {{site.github.title}} include highlights for dozens of programming languages, template languages, and other markup. Just add the language name after the top set of tildes or back-ticks if you want it highlighted.
 
 For a complete list of supported languages, check out the [website for Highlight.js](http://highlightjs.org).
 

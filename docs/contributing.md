@@ -1,8 +1,8 @@
 ---
 layout: docs
 title: Contributing
-tagline: Learn how you can make a contribution to Rasp.
-order: 5
+tagline: Learn how you can make a contribution to Urban.
+order: 4
 baseurl: "../../"
 ---
 

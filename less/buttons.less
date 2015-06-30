@@ -2,7 +2,7 @@
  * Copyright © SoftLayer, an IBM Company
  *
  * buttons.less
- * Rasp's button element. Any button property should always be defined in here. This
+ * Urban's button element. Any button property should always be defined in here. This
  * prevents issues arrising from conflicting properties. Here, you can edit or add new
  * button properties. Remember to comb buttons.less before committing.
  *
@@ -32,5 +32,10 @@
   }
 }
 
-.button-default {.button-variant(@button-default-color; @button-default-bg; @button-default-border; @button-hover);}
-.button-gray {.button-variant(@button-gray-color; @button-gray-bg; @button-gray-border; @button-hover);}
+.button-default {
+  .button-variant(@button-default-color; @button-default-bg; @button-default-border; @button-hover);
+}
+
+.button-gray {
+  .button-variant(@button-gray-color; @button-gray-bg; @button-gray-border; @button-hover);
+}
