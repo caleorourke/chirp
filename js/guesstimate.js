@@ -2,7 +2,7 @@
  * Copyright © SoftLayer, an IBM Company
  *
  * guesstimate.js
- * Rasp's guesstimate.js script estimates how long it'll take to read a single page
+ * Urban's guesstimate.js script estimates how long it'll take to read a single page
  * by converting the word count to minutes.
  *
  */
