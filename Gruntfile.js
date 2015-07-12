@@ -39,8 +39,7 @@ module.exports = function(grunt) {
     concat: {
       vendors: {
         src: ['js/vendors/transition.js',
-              'js/vendors/collapse.js',
-              'js/vendors/highlight.js'],
+              'js/vendors/collapse.js'],
         dest: 'public/js/library.js'
       },
 

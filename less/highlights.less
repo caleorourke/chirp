@@ -4,89 +4,153 @@
  * highlights.less
  * Urban's highlight properties. Highlight properties should always be defined in highlights.less.
  * This allows others to see the joined classes for specific languages. Highlights are handled by
- * the js/vendor/highlight.js script. Remember to comb highlights.less before committing.
+ * the pygments.rb or rouge Ruby plugin that's installed with Jekyll. Remember to comb highlights.less
+ * before committing.
  *
  */
 
-/* IBM Gray */
-.hljs {
-  color: #4d4d4c;
+/* =========================
+   Text Decoration
+   ========================= */
+
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kp,
+.highlight .kr {
+  font-weight: normal;
 }
 
-.hljs-comment {
-  color: #959596;
+.highlight .gs,
+.highlight .o,
+.highlight .ow {
+  font-weight: bold;
 }
 
-/* IBM Red */
-.hljs-variable,
-.hljs-attribute,
-.hljs-tag,
-.hljs-regexp,
-.ruby .hljs-constant,
-.xml .hljs-tag .hljs-title,
-.xml .hljs-pi,
-.xml .hljs-doctype,
-.html .hljs-doctype,
-.css .hljs-id,
-.css .hljs-class,
-.css .hljs-pseudo {
+.highlight .ge {
+  font-style: italic;
+}
+
+/* =========================
+   Grays
+   ========================= */
+
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .cp,
+.highlight .cs,
+.highlight .gh {
+  color: @gray50;
+}
+
+.highlight .go,
+.highlight .gu,
+.highlight .gp,
+.highlight .kt,
+.highlight .nc,
+.highlight .nn {
+  color: @gray30;
+}
+
+.highlight .w {
+  color: @gray60;
+}
+
+.highlight .bp {
+  color: @gray50;
+}
+
+.highlight .nt {
+  color: @gray10;
+}
+
+.highlight .gd {
+  color: @gray10;
+  background-color: #fdd;
+}
+
+.highlight .gi {
+  color: @gray10;
+  background-color: #dfd;
+}
+
+.highlight .gi .x {
+  color: @gray10;
+  background-color: #afa;
+}
+
+.highlight .gd .x {
+  color: @gray10;
+  background-color: #faa;
+}
+
+/* =========================
+   Red
+   ========================= */
+
+.highlight .ne,
+.highlight .nf,
+.highlight .gr,
+.highlight .gt,
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s1,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx {
   color: @red;
 }
 
-/* IBM Orange */
-.hljs-number,
-.hljs-preprocessor,
-.hljs-pragma,
-.hljs-built_in,
-.hljs-literal,
-.hljs-params,
-.hljs-constant {
-  color: @orange;
+.highlight .err {
+  color: @red;
+  background-color: #e3d2d2;
 }
 
-/* IBM Yellow */
-.ruby .hljs-class .hljs-title,
-.css .hljs-rule .hljs-attribute {
-  color: @yellow;
-}
+/* =========================
+   Blue
+   ========================= */
 
-/* IBM Green */
-.hljs-string,
-.hljs-value,
-.hljs-inheritance,
-.hljs-header,
-.hljs-name,
-.ruby .hljs-symbol,
-.xml .hljs-cdata {
-  color: @green;
-}
-
-/* IBM Blue */
-.hljs-title,
-.css .hljs-hexcolor,
-.hljs-function,
-.python .hljs-decorator,
-.python .hljs-title,
-.ruby .hljs-function .hljs-title,
-.ruby .hljs-title .hljs-keyword,
-.perl .hljs-sub,
-.javascript .hljs-title,
-.coffeescript .hljs-title {
+.highlight .na,
+.highlight .nb,
+.highlight .no,
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
   color: @blue;
 }
 
-/* IBM Purple */
-.hljs-keyword,
-.javascript .hljs-function {
-  color: @purple;
+/* =========================
+   Green
+   ========================= */
+
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il,
+.highlight .sr {
+  color: @green;
 }
 
-.coffeescript .javascript,
-.javascript .xml,
-.tex .hljs-formula,
-.xml .javascript,
-.xml .vbscript,
-.xml .css,
-.xml .hljs-cdata {
-  opacity: 0.5;
+/* =========================
+   Magenta
+   ========================= */
+
+.highlight .ss {
+  color: @magenta;
+}
+
+/* =========================
+   Purple
+   ========================= */
+
+.highlight .ni {
+  color: @purple;
 }

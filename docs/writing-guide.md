@@ -10,7 +10,7 @@ baseurl: "../../"
 
 {{site.github.title}} uses [Markdown](http://en.m.wikipedia.org/wiki/Markdown) to provide a simple, humanistic way to write web content without coding. It's a simple language designed to make things easier to voice or read. You still write just like you always have, only now you drop in a few symbols that will magically transform your work into HTML.
 
-### Redcarpet
+## Redcarpet
 
 However, Markdown is not HTML, nor does it create HTML pages. Something else is responsible for transforming it into HTML. That something is [Redcarpet](https://github.com/vmg/redcarpet). By default, Redcarpet is enabled in `_config.yml` and includes extensions that allow you to:
 

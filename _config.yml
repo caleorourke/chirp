@@ -47,12 +47,11 @@ baseurl:        /urban
 permalink:      pretty
 exclude:        [".csscomb.json",
                  ".gitignore",
+                 "CONTRIBUTING.md",
                  "Gruntfile.js",
                  "js",
                  "less",
-                 "LICENSE",
                  "node_modules",
-                 "package.json",
-                 "README.md"]
+                 "package.json"]
 gems:
   - jekyll-sitemap

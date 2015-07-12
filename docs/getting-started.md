@@ -92,14 +92,18 @@ If you're using Windows, read Yi Zeng's [Setup Jekyll on Windows](http://yizeng.
 
 Verify that Node.js and Ruby are installed.
 
-    # each command returns a version number
-    $ node --version
-    $ ruby -v
+```sh
+# each command returns a version number
+$ node --version
+$ ruby -v
+```
 
 Clone {{site.github.title}} from GitHub and go into its directory (5s).
 
-    $ git clone -o master https://github.com/caleorourke/{{site.github.title | downcase}}.git
-    $ cd {{site.github.title | downcase}}
+```sh
+$ git clone -o master https://github.com/caleorourke/{{site.github.title | downcase}}.git
+$ cd {{site.github.title | downcase}}
+```
 
 Install Grunt and dev dependencies for Node.js (10s).
 
