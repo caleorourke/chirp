@@ -33,11 +33,6 @@
    Text
    ========================= */
 
-.adjust-text(@percentage) {
-  -webkit-text-size-adjust: (@percentage);
-      -ms-text-size-adjust: (@percentage);
-}
-
 .antialiased-text() {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -70,15 +65,15 @@
    Variants
    ========================= */
 
-.button-variant(@color; @background; @border; @hover) {
+.button-variant(@color; @background; @border) {
   color: @color;
   background-color: @background;
   border-color: @border;
   &:hover,
   &:focus,
   &:active {
-    border-color: lighten(@border, 20%);
-    box-shadow: inset 0 2px 1px rgba(0,0,0,.075), 0 0 8px @hover;
+    color: darken(@color, 20%);
+    border-color: darken(@border, 20%);
   }
 }
 
@@ -497,5 +492,10 @@
 
 .hide-underline-text() {
   background-image: none;
+}
+
+.adjust-text(@percentage) {
+  -webkit-text-size-adjust: (@percentage);
+      -ms-text-size-adjust: (@percentage);
 }
 */

@@ -22,14 +22,15 @@ button {
   font-weight: @font-weight-normal;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: @letter-spacing-small;
+  letter-spacing: @letter-spacing-xsmall;
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: @border-radius-xlarge;
   &:hover,
-  &:focus {
+  &:focus,
+  &:active {
     text-decoration: none;
   }
   > i {
@@ -39,9 +40,9 @@ button {
 }
 
 .button-default {
-  .button-variant(@button-default-color; @button-default-bg; @button-default-border; @button-hover);
+  .button-variant(@button-default-color; @button-default-bg; @button-default-border);
 }
 
 .button-gray {
-  .button-variant(@button-gray-color; @button-gray-bg; @button-gray-border; @button-hover);
+  .button-variant(@button-gray-color; @button-gray-bg; @button-gray-border);
 }

@@ -12,13 +12,21 @@
 <meta name="description" content="{{site.github.project_tagline}}">
 <meta name="keywords" content="{{site.keywords}}">
 <meta name="author" content="{{site.github.owner}}">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Mobile IE ClearType technology for smoothing fonts and easy reading -->
+  <!--[if IEMobile]>
+    <meta http-equiv="cleartype" content="on">
+  <![endif]-->
 
 <!-- References -->
 <link href="{{page.baseurl}}sitemap.xml" rel="sitemap" type="application/xml" title="Sitemap">
 <link href="{{page.url | replace:"index.html","" | prepend: site.baseurl | prepend: site.url}}" rel="canonical">
 
 <!-- Stylesheets -->
+<link href="{{page.baseurl}}public/css/normalize.css" rel="stylesheet">
+<link href="{{page.baseurl}}public/css/leaflet.css" rel="stylesheet">
 <link href="{{page.baseurl}}public/css/app.css" rel="stylesheet">
 <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 

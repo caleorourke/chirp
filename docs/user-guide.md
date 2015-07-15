@@ -5,3 +5,5 @@ tagline: See how easy it is to work with Urban.
 order: 2
 baseurl: "../../"
 ---
+
+<div id="map"></div>
