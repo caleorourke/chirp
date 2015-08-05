@@ -1,12 +1,12 @@
-<a href="https://travis-ci.org/caleorourke/urban?branch=gh-pages" target="_blank"><img src="http://travis-ci.org/caleorourke/urban.svg?branch=gh-pages"></a>
-<a href="https://david-dm.org/caleorourke/urban#info=devDependencies" target="_blank"><img src="https://david-dm.org/caleorourke/urban/dev-status.svg?theme=shields.io"></a>
-<a href="http://github.com/caleorourke/urban/blob/gh-pages/LICENSE" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
+<a href="https://travis-ci.org/caleorourke/hatch?branch=gh-pages" target="_blank"><img src="http://travis-ci.org/caleorourke/hatch.svg?branch=gh-pages"></a>
+<a href="https://david-dm.org/caleorourke/hatch#info=devDependencies" target="_blank"><img src="https://david-dm.org/caleorourke/hatch/dev-status.svg?theme=shields.io"></a>
+<a href="http://github.com/caleorourke/hatch/blob/gh-pages/LICENSE" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
 
 **Put all your effort into writing great content.**
 
-Introducing Urban, a discount Bootstrap for crafting technical docs on GitHub. It provides the facilities to write content exclusively in [Markdown](http://en.m.wikipedia.org/wiki/Markdown) and spin-up [Jekyll](http://jekyllrb.com)-powered static websites.
+Introducing Hatch, a discount LESS framework for writing technical docs in Markdown. It provides the facilities to write content exclusively in [Markdown](http://en.m.wikipedia.org/wiki/Markdown) and spin-up [Jekyll](http://jekyllrb.com)-powered static websites.
 
-A few benefits of using Urban include:
+A few benefits of using Hatch include:
 
 * Fast load times
 * Automated repetitive tasks
@@ -16,7 +16,7 @@ A few benefits of using Urban include:
 
 ## Documentation
 
-[Browse the wiki](http://github.com/caleorourke/urban/wiki) to get more intimate with the innards of Urban.
+[Browse the wiki](http://github.com/caleorourke/hatch/wiki) to get more intimate with the innards of Hatch.
 
 ## License
 

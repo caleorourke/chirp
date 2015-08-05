@@ -1,7 +1,7 @@
 /* 
- * Copyright © 2015 SoftLayer, an IBM Company
+ * Copyright © 2015 Fictitious Corp
  * 
- * Urban, Build 2015.07.14
+ * Hatch, Build 2015.08.05
  * Code and documentation licensed under the MIT license
  * 
  */

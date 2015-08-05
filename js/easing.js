@@ -2,7 +2,7 @@
  * Copyright © SoftLayer, an IBM Company
  *
  * easing.js
- * Urban's easing.js script smoothly animates the on-page scrolling from links in the body
+ * Hatch's easing.js script smoothly animates the on-page scrolling from links in the body
  * to the anchored element.
  *
  */

@@ -2,7 +2,7 @@
  * Copyright © SoftLayer, an IBM Company
  *
  * scrollup.js
- * Urbans's scrollup.js script shows and hides the "back to top" button whenever it reaches the page
+ * Hatch's scrollup.js script shows and hides the "back to top" button whenever it reaches the page
  * threshold (200). When clicked, it'll scroll users to the top of the page.
  *
  */

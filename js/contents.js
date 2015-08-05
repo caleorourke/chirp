@@ -2,7 +2,7 @@
  * Copyright © SoftLayer, an IBM Company
  *
  * contents.js
- * Urban's contents.js script generates an on-page table of contents for every 'h1' heading
+ * Hatch's contents.js script generates an on-page table of contents for every 'h1' heading
  * in a specific page. It's DOM loaded on any Markdown page that has 'layout: pages' in its
  * frontmatter.
  *

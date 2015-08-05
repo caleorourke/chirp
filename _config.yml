@@ -12,15 +12,15 @@
 # ==============================
 
 github:
-  title:        Urban
-  tagline:      A discount Bootstrap for writing technical docs in Markdown.
-  owner:        "SoftLayer, an IBM Company"
+  title:        Hatch
+  tagline:      Product Documentation
+  owner:        Fictitious Corp
   license:      MIT
   user:
     name:       caleorourke
-    repo:       urban
+    repo:       hatch
 
-keywords:       "css,framework,github,github pages,html5,IBM,javascript,jekyll,js,liquid,markdown,redcarpet,softlayer,urban"
+keywords:       "css,framework,github,github pages,hatch,html5,IBM,javascript,jekyll,js,liquid,markdown,redcarpet,softlayer"
 
 # ==============================
 # Markdown
@@ -43,7 +43,7 @@ redcarpet:
 # Server
 # ==============================
 
-baseurl:        /urban
+baseurl:        /hatch
 permalink:      pretty
 exclude:        [".csscomb.json",
                  ".gitignore",

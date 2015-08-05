@@ -2,7 +2,7 @@
  * Copyright © SoftLayer, an IBM Company
  *
  * metabar.js
- * Urban's metabar.js script adds and removes classes that animate the tucking and
+ * Hatch's metabar.js script adds and removes classes that animate the tucking and
  * untucking of the entire metabar while scolling up and down.
  *
  */
