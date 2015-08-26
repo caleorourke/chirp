@@ -3,7 +3,7 @@
  *
  * easing.js
  * Hatch's easing.js script smoothly animates the on-page scrolling from links in the body
- * to the anchored element.
+ * to anchored elements.
  *
  */
 

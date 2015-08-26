@@ -31,7 +31,7 @@ scrollTo = function(element, to, duration) {
 };
 
 window.onscroll = function() {
-  if (pageYOffset >= 200) {
+  if (pageYOffset >= 200) { // <-- offset threshold
     document.getElementById('icon-scroll-up').style.visibility = 'visible';
   }
   else {

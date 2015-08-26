@@ -2,8 +2,8 @@
  * Copyright © SoftLayer, an IBM Company
  *
  * gruntfile.js
- * Grunt provides configuration for tasks and npm extensions. It reads JSON data from "package.json"
- * and YAML data from "_config.yml". Visit http://gruntjs.com to learn more.
+ * Grunt provides configuration for tasks and npm extensions. It reads JSON data from package.json
+ * and YAML data from config.yml. Visit http://gruntjs.com to learn more.
  *
  */
 
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
             ' * <%= pkg.name %>, Build <%= grunt.template.today(\'yyyy.mm.dd\') %>\n' +
             ' * Code and documentation licensed under the <%= site.github.license %> license\n' +
             ' * \n' +
-            ' */\n\n',
+            ' */\n',
 
     shell: {
       gems: {
