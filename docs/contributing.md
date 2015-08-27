@@ -30,8 +30,6 @@ end_of_line: lf
 trim_trailing_whitespace = true
 ```
 
-> Names and formatting vary across different editors.
-
 ---
 
 # Pull Requests
@@ -40,7 +38,7 @@ Adipisicing meatloaf andouille, sausage dolore et laboris alcatra rump filet mig
 
 Create a pull request by following the instructions below.
 
-1. Fork {{site.github.title}} from GitHub: `http://github.com/username/repo/fork`
+1. Fork our product from GitHub: `http://github.com/username/repo/fork`
 2. Create your branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am "transfer vs to different account holder"`
 4. Push to your branch: `git push origin my-new-feature`
@@ -58,7 +56,7 @@ Cupidatat cillum fatback eu picanha. Picanha ut minim anim, tempor alcatra pork 
 
 # Issue Reporting
 
-Got an issue? Here are some suggestions to guide you through escalating it.
+Pig shankle bresaola, et duis in biltong beef ribs deserunt nostrud beef shank qui ex. Rump eu aliqua andouille elit ut spare ribs drumstick.
 
 ### Search issues already in GitHub
 

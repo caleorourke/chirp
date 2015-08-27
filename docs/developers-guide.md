@@ -20,9 +20,9 @@ Shank salami sausage, ipsum sunt est beef nostrud in:
 * Cupidatat cillum fatback eu picanha
 * Picanha ut minim anim, tempor alcatra pork belly
 * Ground round pariatur tenderloin ad turkey pork andouille salami jerky
-* Sirloin beef ribs elit frankfurter, boudin ea turkey biltong prosciutto t-bone pork loin jowl in.
+* Sirloin beef ribs elit frankfurter, boudin ea turkey biltong prosciutto
 
-In nostrud pork belly turducken deserunt aliqua jerky commodo biltong esse tenderloin fugiat. Aute short ribs duis eiusmod do aliquip, strip steak ham frankfurter turducken pariatur. Aliquip jerky ball tip in, minim consequat occaecat laboris shoulder ad prosciutto corned beef adipisicing et laborum. Dolore in chicken, short ribs sunt pork chop in. Lorem chuck t-bone tail nulla shoulder ullamco bresaola tri-tip voluptate in. Nulla pork veniam eiusmod beef ribs frankfurter nostrud fugiat jerky ribeye ex tail venison. Beef ribs biltong dolore meatball, ball tip pig consequat picanha meatloaf deserunt.
+In nostrud pork belly turducken deserunt aliqua jerky commodo biltong esse tenderloin fugiat. Aute short ribs duis eiusmod do aliquip, strip steak ham frankfurter turducken pariatur.
 
 Velit swine brisket kielbasa.
 
@@ -34,7 +34,7 @@ $ example print -h
 
 # Code Organization
 
-Below is the basic spread for our source.
+Beef ribs biltong dolore meatball, ball tip pig consequat picanha meatloaf deserunt.
 
 <output>
 ├─<i class="fa fa-folder-open-o fa-fw"></i> sirloin
@@ -45,8 +45,9 @@ Below is the basic spread for our source.
 ├─<i class="fa fa-folder-o fa-fw"></i> pork
 └─<i class="fa fa-folder-o fa-fw"></i> ham
 </output>
+<br>
 
-Below is an overview of each directory.
+Nulla pork veniam eiusmod beef ribs frankfurter nostrud fugiat jerky ribeye ex tail venison.
 
 | Directory                        | Contents |
 | -------------------------------- | -------- |
@@ -62,7 +63,7 @@ Below is an overview of each directory.
 
 # Functionality
 
-Chicken leberkas salami flank, id lorem deserunt capicola eu est aliquip ea. Pork loin eiusmod reprehenderit swine exercitation, culpa labore dolor deserunt quis in landjaeger. Drumstick dolore exercitation dolor, et pig adipisicing in culpa duis sirloin labore tempor. Excepteur laboris cupidatat proident cillum, sirloin beef ribs minim boudin. Qui boudin pariatur sed kevin.
+Chicken leberkas salami flank, id lorem deserunt capicola eu est aliquip ea. Pork loin eiusmod reprehenderit swine exercitation, culpa labore dolor deserunt quis in landjaeger. Drumstick dolore exercitation dolor, et pig adipisicing in culpa duis sirloin labore tempor.
 
 ```bash
 usage: example <command> [<args>...] [options]
@@ -86,7 +87,7 @@ Pork belly landjaeger rump tempor, ham hock chuck laborum proident pariatur ex q
 ```py
 class ExampleAction(CLIRunnable):
 """
-usage: sl example print [options]
+usage: example print [options]
 
 Print example
 """
@@ -106,7 +107,7 @@ EXAMPLE!
 
 ```bash
 $ example print -h
-usage: sl example print [options]
+usage: example print [options]
 
 Print example
 
@@ -183,10 +184,10 @@ usage: vs list [--hourly | --monthly] [--sortby=SORT_COLUMN] [--tags=TAGS]
 List virtual servers
 
 Examples:
-  sl vs list --datacenter=dal05
-  sl vs list --network=100 --cpu=2
-  sl vs list --memory='>= 2048'
-  sl vs list --tags=production,db
+  vs list --datacenter=dal05
+  vs list --network=100 --cpu=2
+  vs list --memory='>= 2048'
+  vs list --tags=production,db
 
 Options:
   --sortby=ARG  Column to sort by. options: id, datacenter, host,
@@ -204,7 +205,7 @@ Filters:
   --tags=ARG               Only show instances that have one of these tags.
                            Comma-separated. (production,db)
 
-For more on filters see 'sl help filters'
+For more on filters see 'help filters'
 
 Standard Options:
   --format=ARG           Output format. [Options: table, raw] [Default: table]
