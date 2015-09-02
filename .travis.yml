@@ -24,3 +24,6 @@ notifications:
   email: false
 
 sudo: false
+
+after_install:
+  - grunt test

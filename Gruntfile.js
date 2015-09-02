@@ -88,6 +88,7 @@ module.exports = function(grunt) {
     },
 
     pages: {
+      test: {},
       start: {
         options: {
           watch: true,
@@ -112,4 +113,5 @@ module.exports = function(grunt) {
   grunt.registerTask('preview',       ['pages:start']);
   grunt.registerTask('serve',         ['build', 'pages:start']);
   grunt.registerTask('serve:pretty',  ['build:pretty', 'pages:start']);
+  grunt.registerTask('test',          ['pages:test']);
 };
