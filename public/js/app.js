@@ -1,7 +1,7 @@
 /* 
  * Copyright © 2015 Fictitious Corp
  * 
- * Hatch, Build 2015.08.27
+ * Hatch, Build 2015.09.02
  * Code and documentation licensed under the MIT license
  * 
  */
