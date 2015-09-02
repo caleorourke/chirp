@@ -2,43 +2,36 @@
 <script src="{{page.baseurl}}public/js/jquery.js"></script>
 <script src="{{page.baseurl}}public/js/library.js"></script>
 <script src="{{page.baseurl}}public/js/app.js"></script>
-
-<!-- Scroll to Top -->
-<a href="#" id="icon-scroll-up">
+<a href="#" id="icon-scroll-top"> <!-- Scroll to Top -->
   <i class="fa fa-chevron-up"></i>
 </a>
 
-{% if page.layout == "docs" %}
-  <!-- Table of Contents -->
-  <script>
-    $(document).ready(function() {
-      $('.contents').contents();
-    });
-  </script>
-
-{% elsif page.layout == "landing" %}
-  <!-- Fetches contributors, stargazers and latest version from GitHub -->
-  <script>
-    var month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-
-    $.ajax({
-      url: 'https://api.github.com/repos/' + '{{site.github.user.name}}/' + '{{site.github.user.repo}}/' + 'tags?callback?',
-      dataType: 'jsonp',
-      success: function(json) {
-        latestVersion = json.data[0];
-        $('#js-github-version').text(latestVersion.name);
-      }
-    });
-
-    $.ajax({
-      url: 'https://api.github.com/repos/' + '{{site.github.user.name}}/' + '{{site.github.user.repo}}/' + 'commits?state=closed/callback?',
-      dataType: 'jsonp',
-      success: function (json) {
-        lastCommit = json.data[0];
-        stamp = new Date(lastCommit.commit.committer.date),
-        stampString = month[stamp.getMonth()] + ' ' + stamp.getDate();
-        $('#js-github-commit').text(stampString);
-      }
-    });
-  </script>
+{% if page.layout == "docs" %} <!-- liquid conditional statement -->
+<script> // Table of Contents
+  $(document).ready(function() {
+    $('.contents').contents();
+  });
+</script>
+{% elsif page.layout == "landing" %} <!-- liquid conditional statement -->
+<script> // Fetches contributors, stargazers and latest version from GitHub
+  var month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  $.ajax({
+    url: 'https://api.github.com/repos/' + '{{site.github.user.name}}/' + '{{site.github.user.repo}}/' + 'tags?callback?',
+    dataType: 'jsonp',
+    success: function(json) {
+      latestVersion = json.data[0];
+      $('#js-github-version').text(latestVersion.name);
+    }
+  });
+  $.ajax({
+    url: 'https://api.github.com/repos/' + '{{site.github.user.name}}/' + '{{site.github.user.repo}}/' + 'commits?state=closed/callback?',
+    dataType: 'jsonp',
+    success: function (json) {
+      lastCommit = json.data[0];
+      stamp = new Date(lastCommit.commit.committer.date),
+      stampString = month[stamp.getMonth()] + ' ' + stamp.getDate();
+      $('#js-github-commit').text(stampString);
+    }
+  });
+</script>
 {% endif %}

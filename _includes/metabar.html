@@ -7,14 +7,11 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a href="{{page.baseurl}}">
-      <img class="metabar-logo" src="{{page.baseurl}}public/img/metabar-logo.png" height="34" width="54">
-    </a>
+    <a href="{{page.baseurl}}"><img class="metabar-logo" src="{{page.baseurl}}public/img/metabar-logo.png" height="34" width="54"></a>
   </div>
   <div class="collapse metabar-collapse" id="#top-collapse">
     <ul class="metabar-tabs tabs">
-
-    {% assign node-items = site.pages | sort: "order" %}
+    {% assign node-items = site.pages | sort: "order" %} <!-- liquid template assignment -->
     {% for node in node-items %}
       {% if node.layout == "docs" %}
         <li>
@@ -22,15 +19,12 @@
         </li>
       {% endif %}
     {% endfor %}
-
     </ul>
   </div>
-
-  {% if page.layout == "docs" %}
+  {% if page.layout == "docs" %} <!-- liquid conditional statement -->
     <a class="drawer-icon" onclick="document.getElementById('drawer-backdrop').style.visibility='visible';document.getElementById('drawer').style.right='0'" href="javascript:void(0)" title="Table of Contents">
       <i class="fa fa-angle-left"></i>
     </a>
   {% endif %}
 </nav>
-
-{% include drawer.html %}
+{% include drawer.html %} <!-- liquid include condition -->

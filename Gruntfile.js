@@ -49,7 +49,7 @@ module.exports = function(grunt) {
         },
         src: ['js/contents.js',
               'js/metabar.js',
-              'js/scrollup.js',
+              'js/scrolltop.js',
               'js/easing.js'],
         dest: 'public/js/app.js'
       }
